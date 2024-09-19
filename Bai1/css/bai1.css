@@ -1,0 +1,145 @@
+body {
+    width: 1300px;
+    margin: auto;
+    border: 5px solid gray;
+    font-family: Time New Roman;
+}
+
+div.container {
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #5eacee;
+}
+
+.nav_menu {
+    height: 70px;
+    width: 100%;
+    border-bottom: 5px dotted white;
+}
+
+nav h1 {
+    position: relative;
+    top: -25px;
+    right: 50px;
+    line-height: 56px;
+    color: #fff;
+    text-shadow: 0 0 10px blue;
+    font-size: 36px;
+    font-family: segue ui light;
+}
+
+.ul_menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 20px;
+}
+
+.ul_menu li {
+    display: inline;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 6px;
+    text-align: center;
+}
+.ul_menu a:hover{
+    color: rgb(0, 0, 0);
+}
+.ul_menu a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.art1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.art1 h1 {
+    font-size: 35px;
+    font-family: segue ui light;
+    color: white;
+    margin-left: 10px;
+}
+
+.art1 p {
+    color: white;
+    width: 640px;;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-left:5px;
+    margin-right: 40px;
+    margin-top: 1px;
+    color: white;
+}
+input {
+    padding: 5px;
+    box-sizing: border-box;
+}
+.art2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-grow: 1;
+}
+section {
+    width: 100%;
+}
+form {
+    width: 500px;
+    
+}
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+._input {
+    width: calc(100% - 120px);
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 2px solid blue;
+}
+._buttom {
+    border-radius: 7px; 
+    border: 3px dotted rgb(85, 167, 249);
+}
+footer {
+    text-align: center;
+    border-top: 5px dotted white;
+}

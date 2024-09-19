@@ -1,0 +1,107 @@
+body {
+    width: 1000px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    margin: auto;
+
+}
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+header {
+    background-color: #ad4c15;
+    padding: 5px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+header h1 {
+    margin-left: 20px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-shadow: -5px -3px 3px #c3c2b7;
+    color: #867b0b;
+    font-size: 40px;
+    line-height: 60px;
+    height: 100%;
+    margin: 0;
+}
+nav._navmenu {
+    height: 30px;
+    display: flex;
+    align-items:center;
+}
+ul.ul_menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 10px;
+}
+ul._ulmenu li {
+    display: inline;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-right: 6px;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.art1 {
+    width: 70%;
+    border-right: 1px solid gray;
+}
+.art1 p {
+    text-align: justify; 
+    width: 80%; 
+    margin-left: 50px; 
+    font-size: 20px;
+    font-style: italic;
+    color: #b7a868;
+    font-weight: bold;
+}
+.art1 h1 {
+    letter-spacing: 3px;
+    color: #b7a868;
+    
+}
+.art2 {
+    width: 30%;
+    margin-left: 40px;
+}
+._input {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 490px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+footer {
+    background-image: url('/Bai3/img/footer.png'); 
+    background-size: 210px 30px; 
+    background-repeat: repeat-x;
+    position: relative;
+    text-align: center;
+    height: 45px;
+}
+a {
+    text-decoration: none;
+    color: rgb(202, 135, 10);
+    font-weight: bold;
+}
+ul li {
+    list-style-type: square;
+}
